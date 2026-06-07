@@ -1,0 +1,142 @@
+/* all pages body style */
+
+body{
+    background-image:url("luffy_vs_3_admiral.jpg");
+    background-position: center;
+    background-size:cover;
+}
+/* home page header style */
+#header{
+    font-family:"black ops one",system-ui;
+    font-size:2rem;
+    text-align: center;
+    color: rgb(187, 195, 206);
+    text-shadow:0px 0px 2px  rgb(215, 210, 210);
+    margin-top:30px;
+    letter-spacing: 5px;
+}
+
+/* home page container box design */
+
+#stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%; 
+    box-sizing: border-box;
+      padding: 60px 35px;
+    margin: 120px auto;
+    border-radius: 10px;
+    background: rgba(150, 149, 149, 0.232);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);height: fit-content;
+    gap: 15px;
+    border: 1px solid rgb(153, 148, 148);
+    width: fit-content;
+    box-shadow: 0px 0px 20px 5px rgb(100, 96, 96);
+}
+/* home page text in the box container style*/
+#abc{
+    
+    font-family:'black ops one';
+    font-weight: 20px;
+    color: rgb(16, 21, 21);
+    font-size:1.2rem;
+}
+
+/* home page enter button style */
+
+#progress{
+    font-size:1rem;
+    border-radius: 10px;
+    color:rgb(63, 68, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(112, 108, 105, 0.423);
+    border:1vp solid rgb(12, 14, 13);
+    padding: 3% 10px;
+    transition: padding 0.3s ease-in-out;
+}
+
+#progress:hover{
+    padding:5% 15px;
+    color:black;
+    font-family: monospace;
+}
+
+/* main page header style */
+
+#next_header{
+    font-family:"black ops one",system-ui;
+    font-size:2rem;
+    text-align: center;
+    text-shadow:0px 0px 2px  rgb(215, 210, 210);
+    color: rgb(187, 195, 206);
+    text-shadow:0px 0px 1px whitesmoke;
+    margin-top:30px;
+    letter-spacing: 5px;
+}
+
+/* main page container box design */
+
+
+#next_stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%; 
+    box-sizing: border-box;
+      padding: 60px 35px;
+    margin: 110px auto;
+    border-radius: 10px;
+    background: rgba(150, 149, 149, 0.238);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);height: fit-content;
+    gap: 15px;
+    border: 1px solid rgb(153, 148, 148);
+    width: fit-content;
+     box-shadow: 0px 0px 20px 5px rgb(100, 96, 96);
+
+}
+
+/* main page text in the box container style*/
+
+#next_abc{
+    
+    font-family:'black ops one';
+    font-weight: 20px;
+    color: rgb(16, 21, 21);
+    font-size:1.2rem;
+}
+
+/* main page check button style */
+
+
+#next_progress{
+    font-size:1rem;
+    border-radius: 10px;
+    color:rgb(63, 68, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(112, 108, 105, 0.423);
+    border:1vp solid rgb(12, 14, 13);
+    padding: 4px 8px;
+    transition: padding 0.3s ease-in-out;
+}
+
+#next_progress:hover{
+    padding:6px 15px;
+    color:black;
+    font-family: monospace;
+}
+
+/* font style for customized alert box using sweatAlert2 library */
+
+.swal2-popup, 
+.swal2-title, 
+.swal2-html-container, 
+.swal2-confirm {
+    font-family: "Limelight", sans-serif !important;
+   
+    font-style: normal;
+}
