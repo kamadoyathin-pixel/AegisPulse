@@ -44,7 +44,7 @@ To run this application locally, all you need is a modern web browser.
    ```
 3. Open the main file in your preferred browser:
    ```bash
-   open aegis_pulse_home.html
+   open index.html
    ```
 
 ---
@@ -52,7 +52,7 @@ To run this application locally, all you need is a modern web browser.
 ## 🗺️ System Architecture & Logic
 
 AegisPulse analyzes credentials across four core vectors to determine absolute strength:
-1. **Length Density:** Checks if the input passes standard professional thresholds (12+ characters).
+1. **Length Density:** Checks if the input passes standard professional thresholds (8+ characters).
 2. **Character Pool Variance:** Audits uppercase, lowercase, numerical, and non-alphanumeric distributions.
 3. **Common Sequence Tracing:** Detects and flags sequential patterns (e.g., `12345`, `qwerty`).
 4. **Gear-Tier Rating:** Categorizes strength output into 4 distinct phases—ranging from **Frail** (Weak) up to **Gear Max** (Unbreakable).
