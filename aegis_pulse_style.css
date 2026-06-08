@@ -132,7 +132,7 @@ body{
 
 /* font style for customized alert box using sweatAlert2 library */
 
-.swal2-popup, 
+
 .swal2-title,  
 .swal2-confirm {
     font-family: "Limelight", sans-serif !important;
