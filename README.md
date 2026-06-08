@@ -36,11 +36,11 @@ To run this application locally, all you need is a modern web browser.
 ### Local Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/kamadoyathin-pixel/AegisPulse.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd AegisPulse---Password-Strength-Analyzer
+   cd AegisPulse
    ```
 3. Open the main file in your preferred browser:
    ```bash
